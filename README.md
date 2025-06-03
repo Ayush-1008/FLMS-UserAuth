@@ -16,6 +16,7 @@ FLMS is a lightweight console-based C++ application designed for managing user a
 
 # Technologies Used
 - C++
+- OOPs
 - File I/O (fstream)
 - Windows Console (<conio.h> for password masking)
 
