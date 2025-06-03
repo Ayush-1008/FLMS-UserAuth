@@ -3,10 +3,15 @@ FLMS is a lightweight console-based C++ application designed for managing user a
 
 # Features
 ✅ User Sign Up with password masking
+
 ✅ Secure Login verification
+
 ✅ Forgot Password functionality
+
 ✅ Update Password feature
+
 ✅ Password input hidden via * characters
+
 ✅ File-based user data storage (logindata.txt)
 
 # Technologies Used
