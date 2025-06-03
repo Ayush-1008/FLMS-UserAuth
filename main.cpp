@@ -228,7 +228,7 @@ void temp ::Update_password()
     cin >> searchname;
     cout << endl;
     cout << "enter your old password: ";
-    cin >> searchpassword;
+    searchpassword = gethiddenpasswordinput();
     cout << endl;
     file.open("logindata.txt", ios::in);
     ofstream tempfile("temp.txt");
@@ -243,7 +243,7 @@ void temp ::Update_password()
         {
 
             cout << "enter your new password: ";
-            searchpassword = gethiddenpasswordinput();
+            new_password = gethiddenpasswordinput();
             cout << endl;
             cout << "Updated Successfully.." << endl;
             tempfile << username << "*" << email << "*" << new_password << '\n';
@@ -267,7 +267,7 @@ void temp ::Update_password()
 
 void temp ::exit()
 {
-    cout << "THIK HAI BHAI KYU GUSSA HO RHA H ";
+    cout << "Successfully Exit ";
 }
 
 string temp ::gethiddenpasswordinput()
