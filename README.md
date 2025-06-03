@@ -27,6 +27,19 @@ FLMS/
 
 ├── main.cpp            # Main source code file
 
+# How It Works
+- File-Based Storage: User credentials are stored in a local text file (logindata.txt) using a simple username:password format.
+
+- User Sign-Up: Prompts new users to create a username and a masked password. The system checks for duplicates before saving.
+
+- Login Authentication: On login, the system reads the file and verifies the entered credentials line-by-line.
+
+- Forgot Password: Allows users to recover their password by verifying their username and offering a reset.
+
+- Update Password: Lets authenticated users change their password, updating the stored data accordingly.
+
+- Console Interface: Operates entirely in the terminal/console using interactive prompts and conio.h for input masking.
+
 # Future Improvements
 - Add password encryption (e.g., SHA-256 hashing)
 - Migrate storage to a database (e.g., SQLite)
