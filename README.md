@@ -15,13 +15,15 @@ FLMS is a lightweight console-based C++ application designed for managing user a
 ✅ File-based user data storage (logindata.txt)
 
 # Technologies Used
-C++
-File I/O (fstream)
-Windows Console (<conio.h> for password masking)
+- C++
+- File I/O (fstream)
+- Windows Console (<conio.h> for password masking)
 
 # Project Structure
 FLMS/
+
 ├── logindata.txt       # Stores user login data
+
 ├── main.cpp            # Main source code file
 
 # Future Improvements
